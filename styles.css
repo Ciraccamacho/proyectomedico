@@ -1,0 +1,44 @@
+body
+{
+   background-color: rgb(35, 138, 154);
+}
+
+h1
+{
+   color:    rgb(165, 89, 22);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sansA-serif;
+   font-size: 50px;
+   font-weight: 900;
+   text-align: center;
+   text-shadow: 2px 2px 2px rgb(36, 2, 2);
+}
+
+.parrafo-introductorio
+{
+   margin-top: 80px;
+   margin-bottom: 90px;
+   margin-left: 60px;
+   margin-right: 90px;
+   font-size: 18px;
+}
+.imagen-auto1
+{
+   width: 300px;
+   height: 200px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   margin-left: 40px;
+   margin-right: 30px;
+   border-radius: 150px;
+   align-items: center;
+}
+
+.zoom
+{
+   transition: transform 0.2%;
+}
+
+.zoom:hover
+{
+   transform: scale(1.5);
+}
